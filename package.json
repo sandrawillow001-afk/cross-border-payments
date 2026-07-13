@@ -1,0 +1,57 @@
+{
+  "name": "stellar-cross-border-payments-sdk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Monorepo root for the Stellar Cross-Border Payments SDK",
+  "workspaces": [
+    "sdk",
+    "cli",
+    "ui"
+  ],
+  "scripts": {
+    "install:all": "npm install --workspaces",
+
+    "build": "npm run build:sdk && npm run build:cli && npm run build:ui",
+    "build:sdk": "npm run build --workspace=sdk",
+    "build:cli": "npm run build --workspace=cli",
+    "build:ui": "npm run build --workspace=ui",
+    "build:contracts": "cargo build --release --target wasm32-unknown-unknown",
+
+    "build:full": "npm run build:contracts && npm run build",
+
+    "type-check": "npm run type-check:sdk && npm run type-check:cli && npm run type-check:ui",
+    "type-check:sdk": "tsc --noEmit --project sdk/tsconfig.json",
+    "type-check:cli": "tsc --noEmit --project cli/tsconfig.json",
+    "type-check:ui": "tsc --noEmit --project ui/tsconfig.json",
+
+    "test": "npm run test --workspace=sdk && npm run test --workspace=cli",
+    "test:sdk": "npm run test --workspace=sdk",
+    "test:cli": "npm run test --workspace=cli",
+    "test:contracts": "cargo test",
+
+    "lint": "npm run lint --workspace=sdk && npm run lint --workspace=cli && npm run lint --workspace=ui",
+    "lint:sdk": "npm run lint --workspace=sdk",
+    "lint:cli": "npm run lint --workspace=cli",
+    "lint:ui": "npm run lint --workspace=ui",
+
+    "clean": "npm run clean --workspace=sdk && npm run clean --workspace=cli",
+    "clean:contracts": "cargo clean",
+    "clean:all": "npm run clean && npm run clean:contracts",
+
+    "dev:sdk": "npm run dev --workspace=sdk",
+    "dev:cli": "npm run dev --workspace=cli",
+    "dev:ui": "npm run dev --workspace=ui"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kryputh/stellar-cross-border-payments-sdk.git"
+  },
+  "license": "MIT"
+}

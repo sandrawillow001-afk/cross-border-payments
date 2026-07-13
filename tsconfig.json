@@ -1,0 +1,18 @@
+{
+  /**
+   * Root TypeScript project-references config.
+   *
+   * Running `tsc --build` from the repo root compiles sdk → cli in the correct
+   * dependency order (cli depends on sdk types).  The ui package uses Next.js
+   * which manages its own tsc invocation via `next build`, so it is not
+   * included as a reference here — use `npm run build:ui` for that.
+   *
+   * Individual package tsconfigs live in sdk/tsconfig.json and cli/tsconfig.json.
+   * They are standalone configs that can also be invoked directly.
+   */
+  "files": [],
+  "references": [
+    { "path": "./sdk" },
+    { "path": "./cli" }
+  ]
+}

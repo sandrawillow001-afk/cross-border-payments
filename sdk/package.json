@@ -1,0 +1,53 @@
+{
+  "name": "@stellar-cross-border/sdk",
+  "version": "0.1.0",
+  "description": "Stellar cross-border payments SDK for escrow, exchange rates, and compliance",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "stellar",
+    "cross-border",
+    "payments",
+    "escrow",
+    "soroban",
+    "blockchain"
+  ],
+  "author": "Stellar Cross-Border Payments Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "bignumber.js": "^9.1.2",
+    "stellar-base": "^10.0.0",
+    "stellar-sdk": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "rimraf": "^5.0.0",
+    "ts-jest": "^29.4.11",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stellar-cross-border/sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stellar-cross-border/sdk/issues"
+  },
+  "homepage": "https://github.com/stellar-cross-border/sdk#readme"
+}
