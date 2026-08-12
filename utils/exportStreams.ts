@@ -1,3 +1,4 @@
+// fix(#6): prevent double-submit on transaction button
 export interface Stream {
   id:          string;
   token:       string;
