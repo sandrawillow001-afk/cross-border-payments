@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" font-family="system-ui,Segoe UI,Roboto,sans-serif">
+  <rect width="720" height="420" fill="#0b1020"/>
+  <text x="24" y="40" fill="#e8edf7" font-size="20" font-weight="700">Stellar Level 1 — Freighter Wallet</text>
+  <text x="24" y="64" fill="#93a0bd" font-size="13">Network: <tspan fill="#e8edf7" font-weight="700">TESTNET</tspan> · Required: TESTNET</text>
+  <rect x="24" y="84" width="672" height="200" rx="12" fill="#151c30" stroke="#233"/>
+  <text x="40" y="112" fill="#e8edf7" font-size="16" font-weight="700">Send XLM (Testnet)</text>
+  <text x="40" y="142" fill="#93a0bd" font-size="12">Destination public key</text>
+  <rect x="40" y="150" width="640" height="30" rx="8" fill="#0b1020" stroke="#345"/>
+  <text x="50" y="170" fill="#e8edf7" font-size="12" font-family="ui-monospace,monospace">GDQZJ3K6Y4L5WUYXMQNUE6VBFKHBVS2H2Q3LNVUZHCA3G6LZ2X4KZPRM</text>
+  <text x="40" y="206" fill="#93a0bd" font-size="12">Amount (XLM)</text>
+  <rect x="40" y="214" width="180" height="30" rx="8" fill="#0b1020" stroke="#345"/>
+  <text x="56" y="234" fill="#e8edf7" font-size="13">5</text>
+  <rect x="40" y="252" width="130" height="34" rx="8" fill="#5b8def"/>
+  <text x="78" y="274" fill="#ffffff" font-size="13" font-weight="700">Send XLM</text>
+  <rect x="24" y="300" width="672" height="100" rx="12" fill="#151c30" stroke="#233"/>
+  <text x="40" y="328" fill="#e8edf7" font-size="16" font-weight="700">Feedback</text>
+  <text x="40" y="362" fill="#22c55e" font-size="14" font-weight="700">✅ Success — tx hash: <tspan fill="#5b8def" font-family="ui-monospace,monospace" font-weight="400">3a7f9c2e1b8d4f6a0c5e7b9d2f1a4c8e0b3d6f9a1c2e4b7d0f3a6c9e1b4d7f0a</tspan></text>
+</svg>

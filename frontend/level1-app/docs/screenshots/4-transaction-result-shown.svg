@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="240" font-family="system-ui,Segoe UI,Roboto,sans-serif">
+  <rect width="720" height="240" fill="#0b1020"/>
+  <text x="24" y="40" fill="#e8edf7" font-size="20" font-weight="700">Stellar Level 1 — Freighter Wallet</text>
+  <text x="24" y="64" fill="#93a0bd" font-size="13">Network: <tspan fill="#e8edf7" font-weight="700">TESTNET</tspan> · Required: TESTNET</text>
+  <rect x="24" y="84" width="672" height="130" rx="12" fill="#151c30" stroke="#233"/>
+  <text x="40" y="112" fill="#e8edf7" font-size="16" font-weight="700">Feedback</text>
+  <text x="40" y="146" fill="#22c55e" font-size="14" font-weight="700">✅ Success — tx hash:</text>
+  <rect x="40" y="158" width="640" height="24" rx="6" fill="#0b1020"/>
+  <text x="48" y="175" fill="#5b8def" font-size="12" font-family="ui-monospace,monospace" text-decoration="underline">3a7f9c2e1b8d4f6a0c5e7b9d2f1a4c8e0b3d6f9a1c2e4b7d0f3a6c9e1b4d7f0a</text>
+  <text x="40" y="198" fill="#93a0bd" font-size="12">View on Stellar Expert → (testnet)</text>
+</svg>

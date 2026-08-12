@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" font-family="system-ui,Segoe UI,Roboto,sans-serif">
+  <rect width="720" height="300" fill="#0b1020"/>
+  <text x="24" y="40" fill="#e8edf7" font-size="20" font-weight="700">Stellar Level 1 — Freighter Wallet</text>
+  <text x="24" y="64" fill="#93a0bd" font-size="13">Network: <tspan fill="#e8edf7" font-weight="700">TESTNET</tspan> · Required: TESTNET</text>
+  <rect x="24" y="84" width="672" height="180" rx="12" fill="#151c30" stroke="#233"/>
+  <text x="40" y="112" fill="#e8edf7" font-size="16" font-weight="700">Wallet</text>
+  <text x="40" y="146" fill="#93a0bd" font-size="13">Address:</text>
+  <rect x="120" y="132" width="560" height="22" rx="6" fill="#0b1020"/>
+  <text x="128" y="148" fill="#e8edf7" font-size="12" font-family="ui-monospace,monospace">GCKFBEIACKTZNM7K3LB6U4EWATNLFHWGQ7P3JU5RKMUWUYTPVK2ZA</text>
+  <text x="40" y="184" fill="#93a0bd" font-size="13">Network:</text>
+  <text x="120" y="184" fill="#22c55e" font-size="13" font-weight="700">TESTNET</text>
+  <rect x="40" y="206" width="120" height="34" rx="8" fill="#233" stroke="#345"/>
+  <text x="78" y="228" fill="#e8edf7" font-size="13">Disconnect</text>
+</svg>
