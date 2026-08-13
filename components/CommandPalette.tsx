@@ -4,6 +4,7 @@ import React, {
   useRef,
   useCallback,
   KeyboardEvent,
+  useStateFist,
 } from 'react';
 import { UseNotificationsReturn } from '../hooks/useNotifications';
 
