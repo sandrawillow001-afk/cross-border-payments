@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// fix(#1): optimize gas usage
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
